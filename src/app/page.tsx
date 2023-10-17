@@ -1,3 +1,4 @@
+import CardsSection from "@/components/homeNoAuth/cardsSection"
 import HeaderNoAuth from "@/components/homeNoAuth/headerNoAuth"
 import PresentationSection from "@/components/homeNoAuth/presentationSection"
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HeaderNoAuth/>
       <PresentationSection/>
       </div>
+      <CardsSection/>
     </main>
   )
 }
