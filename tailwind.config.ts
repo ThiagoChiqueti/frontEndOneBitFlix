@@ -12,6 +12,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+
+        'hero-bg': "url('/homeNoAuth/backgroundPresentationSection.png')",
+
+        'hero-pattern':
+          "linear-gradient(to bottom, rgba(139, 139, 139, 0.2), rgba(21, 21, 21, 0.9)), url('/homeNoAuth/backgroundPresentationSection.png')",
+        
       },
       
       colors: {

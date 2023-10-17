@@ -20,11 +20,11 @@ const PresentationSection: React.FC = () => {
             </button>
           </Link>
         </div>
-        <div className="flex  flex-col justify-center">
+        <div className="flex  flex-col justify-center items-center">
           <img
             src="/homeNoAuth/imgPresentation.png"
             alt="img index"
-            className="w-[550px]"
+            className="max-w-[250px] sm:max-w-sm md:max-w-md lg:max-w-lg"
           />
         </div>
       </section>
