@@ -1,3 +1,4 @@
+import Container from "@/components/container";
 import Link from "next/link";
 
 const HeaderNoAuth = () => {
@@ -8,8 +9,8 @@ const HeaderNoAuth = () => {
         <p className="text-xs sm:text-sm">Cadastre-se para ter acesso aos cursos</p>
         <img src="/homeNoAuth/logoCta.png" alt="logoCta" className="w-8" />
       </div>
-      <section className="flex justify-center">
-        <div className="container flex justify-center flex-wrap mt-5 sm:justify-between">
+      <Container>
+        <div className="flex justify-center flex-wrap mt-5 sm:justify-between">
           <img src="/logoOneBitFlix.svg" alt="logoOneBitFlix" className="w-44" />
 
           <div className="flex gap-3">
@@ -28,7 +29,7 @@ const HeaderNoAuth = () => {
         
           </div>
         </div>
-      </section>
+      </Container>
     </>
   );
 };
