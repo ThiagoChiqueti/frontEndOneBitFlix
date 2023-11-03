@@ -7,7 +7,7 @@ interface props {
     newestCourses: CourseType[]
 }
 
-const SlideSection = function ({newestCourses}: props) {
+const SlideSection = function ({newestCourses}: any) {
     return <>
     <Container>
         <p className="">Aulas já disponíveis</p>
